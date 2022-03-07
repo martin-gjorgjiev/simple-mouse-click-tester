@@ -1,0 +1,1 @@
+simple mouse click tester
