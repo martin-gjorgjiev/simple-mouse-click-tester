@@ -7,7 +7,15 @@ namespace simple_mouse_click_tester
         {
             InitializeComponent();
             richTextBox1.MouseWheel += richTextBox1_MouseWheel;
-            
+            richTextBox1.Text = "Simple mouse click tester that is indended for personal use." +
+                "\nFeatures:" +
+                "\n#1. Three modes for testing: Realtime, Highlight and Double Click mode." +
+                "\n#2. Continuity test: Select RT mode, hold down the desired click and check if the mouse click counter increases." +
+                "\n#3. Scroll test:Select HL mode, scroll in one direction and check if it highlights the scroll in the other direction." +
+                "\n#4. Simultaneous click test: Select RT mode, press combinations of clicks (especially LMB+MB3 and MMB+MB4 if your mouse has MB3 and 4) and check if they both highlight at the same time." +
+                "\n#5. Double click test: Select DC mode and perform single clicks to check if the mouse would perform a faulty doubleclick or check if you can perform double clicks with that mouse. Works for all buttons and the click counter only records the number of double clicks.";
+
+
             //richTextBox1.DoubleClick += richTextBox1_DoubleClick; //experimental
         }
 
@@ -182,6 +190,7 @@ namespace simple_mouse_click_tester
             }
             else
             {
+                if(timer2.Enabled)
                 timer2.Stop();
                 clearBtn.PerformClick();
             }
