@@ -1,3 +1,4 @@
+# Simple mouse click tester
 Simple mouse click tester originally intended as practise in order remove the built up code rust and for testing on my own mice.
 1. Three modes for testing: Realtime, Highlight and Double Click mode.
 2. Continuity test: Select RT mode, hold down the desired click and check if the mouse click counter increases.
