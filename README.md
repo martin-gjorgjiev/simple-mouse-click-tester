@@ -14,7 +14,7 @@ This is an application that it is solving a problem that I had with mice. Someti
 
 ## Demo
 
-[Insert gif or link to demo](https://raw.githubusercontent.com/fistarter/simple-mouse-click-tester/master/clickdemo.gif)
+![Insert gif or link to demo](https://raw.githubusercontent.com/fistarter/simple-mouse-click-tester/master/clickdemo.gif)
 
 
 ## Techonolgies used
